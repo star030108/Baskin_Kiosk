@@ -149,6 +149,9 @@
     <Compile Include="View\PaymentPage\Payment.xaml.cs">
       <DependentUpon>Payment.xaml</DependentUpon>
     </Compile>
+	<Compile Include="View\ManagePage\Manage.xaml.cs">
+		<DependentUpon>Manage.xaml</DependentUpon>
+	</Compile>
     <Compile Include="Model\Category.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -187,6 +190,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+	<Page Include="View\ManagePage\Manage.xaml">
+		<SubType>Designer</SubType>
+		<Generator>MSBuild:Compile</Generator>
+	</Page>
     <Page Include="View\MessagePage\Message.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
